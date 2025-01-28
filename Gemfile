@@ -22,10 +22,10 @@ platform :ruby do
 end
 
 platform :jruby do
-  gem 'activerecord-jdbc-adapter', '>= 1.2.6'
-  gem 'activerecord-jdbcpostgresql-adapter'
-  gem 'activerecord-jdbcmysql-adapter'
-  gem 'activerecord-jdbcsqlite3-adapter'
+  gem 'activerecord-jdbc-adapter', '>= 71.0'
+  gem 'activerecord-jdbcpostgresql-adapter', '>= 71.0'
+  gem 'activerecord-jdbcmysql-adapter', '>= 71.0'
+  gem 'activerecord-jdbcsqlite3-adapter', '>= 71.0'
   gem 'activerecord-jdbch2-adapter'
   gem 'jdbc-postgres'
   gem 'jruby-openssl'
