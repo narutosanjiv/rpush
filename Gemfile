@@ -2,10 +2,10 @@ source 'https://rubygems.org'
 
 gem 'rake'
 gem 'rspec', '= 2.14.1'
-gem 'rails', '~> 4.1'
+gem 'rails', '~> 7.1', '>= 7.1.0'
 gem 'database_cleaner'
 gem 'timecop'
-gem 'rpush-redis', '0.1.0'
+gem 'rpush-redis', '0.2.0'
 
 platform :mri do
   gem 'cane'
@@ -26,7 +26,7 @@ platform :jruby do
   gem 'activerecord-jdbcpostgresql-adapter'
   gem 'activerecord-jdbcmysql-adapter'
   gem 'activerecord-jdbcsqlite3-adapter'
-  gem 'activerecord-jdbch2-adapter'
+  gem 'activerecord-jdbch2-adapter', '>= 1.3.14'
   gem 'jdbc-postgres'
   gem 'jruby-openssl'
 end
